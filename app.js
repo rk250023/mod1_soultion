@@ -1,0 +1,1 @@
+!function(){"use strict";function t(t){t.list="",t.msg="",t.Check=function(){var n=t.list.split(",");""==t.list||" "==t.list?t.msg="Please enter data!":n.length<=3?t.msg="Enjoy!":t.msg="Too Much food!"}}angular.module("LunchCheck",[]).controller("LunchCheckController",t),t.$inject=["$scope"]}();
